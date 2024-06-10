@@ -1,0 +1,110 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    background-image: url("../photos/vitrine_bg.png");
+    background-size: cover;
+    /*background-position: top;*/
+    background-blend-mode: darken;
+    background-color: white;
+    margin: 0;
+    padding-top: 100px;
+    color: #333;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+h2{
+    margin-left: 500px;
+    font-size: 100px;
+
+}
+form{
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    
+}
+p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+#ins{
+    font-size: 18px;
+    text-decoration: underline;
+    color: crimson;
+}
+#ins:hover{
+    font-style: italic;
+    color: white;
+}
+button{
+    background-color: white;
+    color: crimson;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+    margin-right: 135px;
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+    border-radius:15px;
+    width:150px;
+}
+button:hover{
+    background-color:crimson;
+    color:white;
+    font-weight:bold;
+}
+input{
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 18px;
+    color: gray;
+    border: 1px solid #ccc;
+}
+label{
+    font-size: 18px;
+    margin-bottom: 5px;
+    display: block;
+}
+#cnx{
+    margin: 50px;
+}
+body .tb{
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box; 
+    border-radius: 15px;
+    margin: 20px;
+    padding: 20px;
+}
+body .tb tr{
+    margin: 10px;
+    padding: 10px;
+}
+body .tb td{
+    margin: 10px;
+    padding: 20px;
+}
+body #div{
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box; 
+    border-radius: 15px;
+    margin: 20px;
+    padding: 20px;
+}

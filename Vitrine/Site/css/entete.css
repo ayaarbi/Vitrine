@@ -1,0 +1,73 @@
+/* Ensure proper styling and visibility for the header */
+header {
+    background-image: url("../photos/vitrine_bg_bd.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: darken;
+    border-bottom: solid white 10px;
+   /* border: solid white px;*/
+    border-radius: 6px;
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box; 
+}
+
+header div {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+nav {
+    background-color: rgba(255, 255,255, 0.7);
+    border: white solid 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#logo {
+    border: dotted 5px white;
+    margin-right: 20px; 
+    border-radius: 5px;
+}
+
+a {
+    display: inline-block;
+    background-color: white;
+    color: crimson;
+    margin: 10px 20px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    width: 150px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a:hover {
+    background-color: crimson;
+    color: white;
+    font-weight: bold;
+}
+
+a:active {
+    color: white;
+    background-color: pink;
+}
+
+/* Ensure body and html take full height */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Apply the box-sizing rule to all elements */
+}
